@@ -7,19 +7,21 @@ public class India {
 
 }
 
-class Delhi extends India{
-	//Method Overriding - Inheritence applied
+class Delhi extends India {
+	// Method Overriding - Inheritence applied
 	public void speaking() {
 		System.out.println("I can speak Hindi");
-		}
-	}
-
-class Kerala extends India{	public void speaking() {
-	System.out.println("I can speak Malayalam");
 	}
 }
 
-class TamilNadu extends India{	public void speaking() {
-	System.out.println("I can speak Tamil");
+class Kerala extends India {
+	public void speaking() {
+		System.out.println("I can speak Malayalam");
+	}
+}
+
+class TamilNadu extends India {
+	public void speaking() {
+		System.out.println("I can speak Tamil");
 	}
 }
